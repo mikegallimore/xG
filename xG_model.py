@@ -34,9 +34,9 @@ xg_df = xg_df.drop(columns=['HOME_ZONE', 'AWAY_ZONE', 'XG_MONEYPUCK'])
 ###
 
 ### set the independent variables
-categorical_variables = ['SECONDS_GONE','SECONDS_LAST_EVENT','X_1', 'Y_1', 'ANGLE', 'DISTANCE', 'DISTANCE_LAST_EVENT']
+continuous_variables = ['SECONDS_GONE','SECONDS_LAST_EVENT','X_1', 'Y_1', 'ANGLE', 'DISTANCE', 'DISTANCE_LAST_EVENT']
 boolean_variables = ['IS_ON_NET', 'IS_REBOUND', 'IS_HOME_LEADING', 'IS_HOME_TIED', 'IS_HOME_TRAILING', 'IS_HOME_EV', 'IS_HOME_PP', 'IS_HOME_SH']
-independent_variables = categorical_variables + boolean_variables
+independent_variables = continuous_variables + boolean_variables
 x = xg_df[independent_variables]
 
 ### set the dependent variable
