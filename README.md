@@ -1,7 +1,7 @@
 # xG_Test
 
-shots_training-seasons.csv spans 5 seasons (20132014-20172018)<br>
-shots_test-season.csv is a sample (20182019 only) apart from the training seasons<br>
+The training set spans, with the exception of the lockout-shortened 2012 season, the 20072008 through 20162017 seasons.<br>
+The test set spans the 20172018 and 20182019 seasons.
 <p>
 https://github.com/HarryShomer/xG-Model<br>
 https://datatofish.com/logistic-regression-python/<br>
