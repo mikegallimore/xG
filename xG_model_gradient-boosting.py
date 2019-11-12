@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 26 13:42:14 2019
-
-@author: Michael
+@author: @mikegallimore
 """
 ###
 ### IMPORT NEEDED PACKAGES
