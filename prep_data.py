@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+@author: @mikegallimore
+"""
 
 import pandas as pd
 import numpy as np
