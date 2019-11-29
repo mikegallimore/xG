@@ -1,7 +1,7 @@
 # xG
 
 ### Data Prep
-All of the shot data was downloaded from <a href="http://moneypuck.com/data.htm">MoneyPuck</a>. Each season's file was initially treated in Excel before being bound into one of two files that are cleaned further via <code>prep_data.py</code>:
+All of the shot data was downloaded from <a href="http://moneypuck.com/data.htm">MoneyPuck</a>. Each season's file was initially treated in Excel before being bound into one of two files that are cleaned further via <code>prep_data.py</code>:<br>
 <ul>Training data</ul>
 <ul>Testing data</ul>
 
