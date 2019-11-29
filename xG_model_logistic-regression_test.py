@@ -62,11 +62,14 @@ sn.heatmap(c_matrix_2, annot=True)
 fpr, tpr,_=roc_curve(y_pred, y, drop_intermediate=False)
 
 plt.figure()
+
 # adding the ROC
 plt.plot(fpr, tpr, color='red',
  lw=2, label='ROC curve')
+
 # random FPR and TPR
 plt.plot([0, 1], [0, 1], color='blue', lw=2, linestyle='--')
+
 # title and labels
 plt.xlabel('FPR')
 plt.ylabel('TPR')
