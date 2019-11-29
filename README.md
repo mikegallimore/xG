@@ -4,7 +4,7 @@
 See <code>enviroment.yml</code>
 
 ### Data Prep
-All of the shot data was downloaded from <a href="http://moneypuck.com/data.htm">MoneyPuck</a> in the form of distinct season files that received an initial treatment in Excel.
+All of the shot data <a href="http://moneypuck.com/data.htm">originates from MoneyPuck</a> in the form of distinct season files that received an initial treatment in Excel.
 
 These separate files were then bound, or aggregated into one of two files that are cleaned further via <code>prep_data.py</code>:
 <ul>
