@@ -3,7 +3,7 @@
 ### Requirements
 At minimum, a vanilla installation of Python3. If in need of installing Python, the simplest remedy is to install the Anaconda Distribution or, alternatively, Miniconda. 
 
-Refer to <code>enviroment.yml</code> for the specific version of each module listed below:
+Refer to <code>environment.yml</code> for the specific version of each module listed below:
 <ul>
   <li>numpy</li>  
   <li>pandas</li>
