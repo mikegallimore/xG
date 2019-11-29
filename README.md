@@ -18,6 +18,7 @@ These separate files were then bound, or aggregated into one of two files that a
 You can run the following script(s) to train a specific type of model:
 <ul>
   <li><code>xG_model_logistic-regression_train.py</code></li>
+  <li><code>xG_model_gradient-boosting_train.py</code></li>
 </ul>
 
 ### Model Testing
@@ -26,4 +27,5 @@ You can run the following script(s) to train a specific type of model:
 You can run the following script(s) to test a specific type of model you have already trained:
 <ul>
   <li><code>xG_model_logistic-regression_test.py</code></li>
+  <li><code>xG_model_gradient-boosting_test.py</code></li>
 </ul>
