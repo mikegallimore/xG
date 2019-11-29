@@ -1,10 +1,18 @@
 # xG
 
 ### Requirements
-See <code>enviroment.yml</code>
+At minimum, a vanilla installation of Python3. If in need of installing Python, the simplest remedy is to install the Anaconda Distribution or, alternatively, Miniconda. 
+
+Refer to <code>enviroment.yml</code> for the specific version of each module listed below:
+<ul>
+  <li>numpy</li>  
+  <li>pandas</li>
+  <li>pickle</li>
+  <li>scikit-learn</li>
+</ul>
 
 ### Data Prep
-All of the shot data <a href="http://moneypuck.com/data.htm">originates from MoneyPuck</a> in the form of distinct season files, each of which  received an initial treatment in Excel.
+All of the shot data <a href="http://moneypuck.com/data.htm">originates from MoneyPuck</a> in the form of distinct season files, each of which received an initial treatment in Excel.
 
 These separate files were then bound, or aggregated into one of two files that are cleaned further via <code>prep_data.py</code>:
 <ul>
