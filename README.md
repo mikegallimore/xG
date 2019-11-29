@@ -1,5 +1,8 @@
 # xG
 
+### Requirements
+See <code>enviroment.yml</code>
+
 ### Data Prep
 All of the shot data was downloaded from <a href="http://moneypuck.com/data.htm">MoneyPuck</a> in the form of distinct season files that received an initial treatment in Excel.
 
@@ -12,12 +15,15 @@ These separate files were then bound, or aggregated into one of two files that a
 ### Model Training
 <a href="https://drive.google.com/open?id=1rAEsvR4efPrDjyqWFCL8i1OciWfXxKs7">shots_train.csv</a> includes 64,276 goals among 987,926 unblocked regular season and playoffs shots.
 
-You can run the following scripts to train a specific type of model:
+You can run the following script(s) to train a specific type of model:
 <ul>
-<li>xG_model_logistic-regression_train.py</li>
+  <li><code>xG_model_logistic-regression_train.py</code></li>
 </ul>
 
 ### Model Testing
 <a href="https://drive.google.com/open?id=1C5l53rmSugEvGRdRH0cKAyBzSOHlAaeE">shots_test.csv</a> includes 15,952 goals among 237,320 unblocked regular season and playoffs shots.
 
-This file is loaded into the following file(s):
+You can run the following script(s) to test a specific type of model you have already trained:
+<ul>
+  <li><code>xG_model_logistic-regression_train.py</code></li>
+</ul>
