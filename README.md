@@ -1,7 +1,7 @@
 # xG
 
 ### Requirements
-At minimum, a vanilla installation of Python3. If Python isn't on your machine, the simplest remedy is to install the Anaconda Distribution or, alternatively, Miniconda. 
+At minimum, a vanilla installation of Python3. If Python isn't on your machine, the simplest remedy is to install the Anaconda Distribution or, alternatively, its less-cumbersome version (Miniconda). 
 
 Refer to <code>environment.yml</code> for the specific version of each module listed below:
 <ul>
