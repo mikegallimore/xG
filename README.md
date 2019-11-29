@@ -25,5 +25,5 @@ You can run the following script(s) to train a specific type of model:
 
 You can run the following script(s) to test a specific type of model you have already trained:
 <ul>
-  <li><code>xG_model_logistic-regression_train.py</code></li>
+  <li><code>xG_model_logistic-regression_test.py</code></li>
 </ul>
