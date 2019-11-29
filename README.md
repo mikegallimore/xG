@@ -23,7 +23,7 @@ These separate files were then bound, or aggregated into one of two files that a
 ### Model Training
 <a href="https://drive.google.com/open?id=1rAEsvR4efPrDjyqWFCL8i1OciWfXxKs7">shots_train.csv</a> includes 64,276 goals among 987,926 unblocked regular season and playoffs shots.
 
-You can run the following script(s) to train a specific type of model:
+Running the following script(s) will train a specific type of model:
 <ul>
   <li><code>xG_model_logistic-regression_train.py</code></li>
   <li><code>xG_model_gradient-boosting_train.py</code></li>
@@ -32,7 +32,7 @@ You can run the following script(s) to train a specific type of model:
 ### Model Testing
 <a href="https://drive.google.com/open?id=1C5l53rmSugEvGRdRH0cKAyBzSOHlAaeE">shots_test.csv</a> includes 15,952 goals among 237,320 unblocked regular season and playoffs shots.
 
-You can run the following script(s) to test a specific type of model you have already trained:
+Running the following script(s) will test a specific type of already-trained model:
 <ul>
   <li><code>xG_model_logistic-regression_test.py</code></li>
   <li><code>xG_model_gradient-boosting_test.py</code></li>
