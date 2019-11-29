@@ -3,8 +3,8 @@
 ### Data Prep
 All of the shot data was downloaded from <a href="http://moneypuck.com/data.htm">MoneyPuck</a>. Each season's file was initially treated in Excel before being bound into one of two files, training_set.csv and testing_set.csv, that are cleaned further via <code>prep_data.py</code>.
 
-### Training
+### Model Training
 <a href="https://drive.google.com/file/d/1rAEsvR4efPrDjyqWFCL8i1OciWfXxKs7/view?usp=sharing">shots_test.csv</a> includes 987,926 unblocked regular season and playoffs shots from 8 seasons (20072008, 20082009, 20092010, 20102011, 20112012, 20132014, 20142015 and 20162017).
 
-### Testing
+### Model Testing
 <a href="https://drive.google.com/file/d/1C5l53rmSugEvGRdRH0cKAyBzSOHlAaeE/view?usp=sharing">shots_train.csv</a> includes 237,320 unblocked regular season and playoff shots from 2 seasons (20172018 and 20182019).
