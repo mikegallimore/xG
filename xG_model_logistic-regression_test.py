@@ -30,7 +30,7 @@ shots_df = shots_df.drop(columns=parameters.drop_columns)
 ### CREATE THE LOGISTIC REGRESSION
 ###
 
-# set the independent variables for the training (5 seasons) and test (1 season) sets
+# set the independent variables for the training and test sets
 continuous_variables = parameters.continuous_variables
 boolean_variables = parameters.boolean_variables
 independent_variables = continuous_variables + boolean_variables
