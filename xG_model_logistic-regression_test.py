@@ -86,7 +86,7 @@ print('Log Loss:\n', metrics.log_loss(y, y_pred))
 # generate a classification report for the model
 print('Classification Report:\n', metrics.classification_report(y, y_pred))
 
-# generate probabilities for each shot; save to file
+# generate probabilities for each shot; save probabilities to file
 predictions = model_logreg.predict_proba(x)
 print(predictions)
 
