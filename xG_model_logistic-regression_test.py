@@ -63,7 +63,7 @@ fpr, tpr,_=roc_curve(y_pred, y, drop_intermediate=False)
 
 plt.figure()
 
-# adding the ROC
+# add the ROC
 plt.plot(fpr, tpr, color='red', lw=2, label='ROC curve')
 
 # random FPR and TPR
