@@ -7,6 +7,7 @@ These separate files were then bound, or aggregated into one of two files that a
 <ul>
 <li><a href="https://drive.google.com/file/d/1p1IiUqVlKlmszVOWvlHiOUYf1X3ooIks/view?usp=sharing">training_set.csv</a></li>
 <li><a href="https://drive.google.com/file/d/1JWUNobDbNl3Lc-M6KMRjIAakINqzObh_/view?usp=sharing">testing_set.csv</a></li>
+</ul>
 
 ### Model Training
 <a href="https://drive.google.com/file/d/1rAEsvR4efPrDjyqWFCL8i1OciWfXxKs7/view?usp=sharing">shots_test.csv</a> includes 987,926 unblocked regular season and playoffs shots from 8 seasons (20072008, 20082009, 20092010, 20102011, 20112012, 20132014, 20142015 and 20162017).
