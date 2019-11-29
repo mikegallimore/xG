@@ -25,6 +25,7 @@ test_shots_df = pd.read_csv(shots_test_season)
 shots_df = test_shots_df.copy()
 shots_df = shots_df.drop(columns=parameters.drop_columns)
 
+
 ###
 ### CREATE THE LOGISTIC REGRESSION
 ###
@@ -38,10 +39,12 @@ x = shots_df[independent_variables]
 # set the dependent variable
 y = shots_df['IS_GOAL']
 
+# load the saved model
 pkl_logreg = "pickle_logreg.pkl"
 with open(pkl_logreg, 'rb') as file_logreg:
     model_logreg = pickle.load(file_logreg)
 
+# score the model
 score_logreg = model_logreg.score(x, y)
 print("Test score: {0:.2f} %".format(100 * score_logreg))
 
@@ -70,7 +73,7 @@ plt.ylabel('TPR')
 plt.title('ROC curve')
 plt.show()
 
-# generate the AUC score
+# score the model by ROC_AUC
 auc_rating = roc_auc_score(y_pred, y)
 print('AUC Score: ', auc_rating)
 
