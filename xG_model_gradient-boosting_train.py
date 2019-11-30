@@ -24,7 +24,7 @@ shots_df = shots_df.drop(columns=parameters.drop_columns)
 
 
 ###
-### FIT A GRADIENT BOOSTING ALGORITHM
+### GRADIENT BOOSTING
 ###
 
 # set the independent variables
