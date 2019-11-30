@@ -27,7 +27,7 @@ shots_df = shots_df.drop(columns=parameters.drop_columns)
 
 
 ###
-### CREATE THE LOGISTIC REGRESSION
+### LOGISTIC REGRESSION
 ###
 
 # set the independent variables for the training and test sets
